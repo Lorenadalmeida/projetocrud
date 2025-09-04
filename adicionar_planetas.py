@@ -11,6 +11,6 @@ def adicionar_planeta():
         }  
     planetas.append(planeta)
     print(f"\n planeta '{nome}) registrado com sucesso!")
-   
-    adicionar_planeta()
     print(planetas)
+
+adicionar_planeta()
